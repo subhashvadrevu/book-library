@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body onload="getBookData(false, false, '', 0)">
+    <div class="main">
+        <h1>Book Library</h1>
+        <div class="filter-section">
+            <button onclick="onListView()">List view</button>
+            <button onclick="onGridView()">Grid view</button>
+            <button onclick="asc()">Sort A-Z</button>
+            <button onclick="des()">Sort Z-A</button>
+            <input id="searchBar" type="text" placeholder="Search by Book name">
+        </div>
+        <p>Click on Book Image to get more details</p>
+        <div class="list-view" id="book_data"></div>
+        <div class="pageToggle">
+            <button onclick="goToPrevPage()">Previous Page</button>
+            <p id="currPage">1</p>
+            <button onclick="goToNextPage()">Next Page</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
