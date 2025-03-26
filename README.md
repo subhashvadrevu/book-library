@@ -25,6 +25,9 @@
 5) Sort Z-A feature
     ![sort_z-a](screenshots/image-4.png)
 
+6) Pagination
+    ![pagination](screenshots/image-5.png)
+
 ---
 
 ### Deployment Link
