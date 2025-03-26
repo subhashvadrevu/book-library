@@ -150,10 +150,12 @@ const goToNextPage = () => {
 }
 
 const asc = () => {
+    searchBar.value = ""
     getBookData(false, false, "", 1)
 }
 
 const des = () => {
+    searchBar.value = ""
     getBookData(false, false, "", -1)
 }
 
