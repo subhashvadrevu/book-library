@@ -11,19 +11,19 @@
 
 ### Screenshots
 1) List-view
-    ![List-view](image.png)
+    ![List-view](screenshots/image.png)
 
 2) Grid-view
-    ![Grid-view](image-1.png)
+    ![Grid-view](screenshots/image-1.png)
 
 3) Search Bar feature
-    ![search-bar](image-2.png)
+    ![search-bar](screenshots/image-2.png)
 
 4) Sort A-Z feature
-    ![sort_a-z](image-3.png)
+    ![sort_a-z](screenshots/image-3.png)
 
 5) Sort Z-A feature
-    ![sort_z-a](image-4.png)
+    ![sort_z-a](screenshots/image-4.png)
 
 ---
 
